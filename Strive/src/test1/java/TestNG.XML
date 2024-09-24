@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Regression Suite" parallel="tests" verbose="5">
+	
+  <test name="Strive Test"  parallel="methods" thread-count="5">
+	     
+      <classes>
+      <class name="com.TestClassExecutionPACK.StriveLoginTest"/>
+      <class name="com.TestClassExecutionPACK.StatsHomePageTest"/>
+      <class name="com.TestClassExecutionPACK.PropertiesPageTest"/>
+     <class name="com.TestClassExecutionPACK.AddNewPropertyPageStriveTest"/>
+     </classes>
+     </test> <!-- Test -->
+     </suite> <!-- Suite -->
